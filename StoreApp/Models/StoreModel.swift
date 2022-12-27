@@ -11,8 +11,8 @@ import Foundation
 class StoreModel: ObservableObject {
     
     var client = StoreHttpclient()
-    @Published private(set) var categories: [Category] = []
-    @Published private(set) var products: [Product] = []
+    @Published  var categories: [Category] = []
+    @Published  var products: [Product] = []
     
     func fetchCategories() async throws {
         categories = try await client.load(Resource(url: URL.allCategogies))
