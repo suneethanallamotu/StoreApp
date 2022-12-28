@@ -28,4 +28,8 @@ extension URL {
     static func productsByCategories(_ categoryId: Int) -> URL {
         return URL(string: "/api/v1/categories/\(categoryId)/products", relativeTo: Self.baseURL)!
     }
+    
+    static var saveProduct: URL {
+        URL(string: "/api/v1/products/", relativeTo: Self.baseURL)!
+    }
 }

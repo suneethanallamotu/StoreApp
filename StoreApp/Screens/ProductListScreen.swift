@@ -29,7 +29,9 @@ struct ProductListScreen: View {
                 }
             }
             .sheet(isPresented: $isProductAddPresented) {
-                AddProductScreen()
+                NavigationStack {
+                    AddProductScreen()
+                }
             }
             .task {
                 do {

@@ -15,6 +15,7 @@ struct AddProductScreen: View {
     @State private var imageURL: String = ""
     @State private var errorMessage: String = ""
     @EnvironmentObject var storeModel: StoreModel
+    @Environment(\.dismiss) var dismiss
     
     var body: some View {
         Form {
@@ -28,7 +29,48 @@ struct AddProductScreen: View {
                     
                 }
             }
-            .pickerStyle(.automatic)
+            .pickerStyle(.wheel)
+            TextField("Image URL", text: $imageURL)
+        }
+        .navigationTitle("Add Product")
+        .onAppear {
+            selectedCategory = storeModel.categories.first
+        }
+        .toolbar {
+            ToolbarItem(placement: .navigationBarLeading){
+                Button("Cancel") {
+                    dismiss()
+                }
+            }
+            ToolbarItem(placement: .navigationBarTrailing) {
+                Button("Done") {
+                    saveProduct()
+                }
+                .disabled(isDoneDisabled)
+            }
+        }
+    }
+    private var isDoneDisabled: Bool {
+        
+        title.isEmpty || price == 0.0 || description.isEmpty ||
+            selectedCategory == nil ||
+            imageURL.isEmpty
+         
+    }
+    
+    private func saveProduct() {
+        guard let category = selectedCategory,
+              let imageURL = URL(string: imageURL) else {
+            return
+        }
+        let createProductRequest = CreateProductRequest(title: title, price: price, description: description, categoryId: category.id, images: [imageURL])
+        Task {
+            do {
+                try await storeModel.saveProduct(createProductRequest)
+                dismiss()
+            } catch {
+                errorMessage = "Error saving the product"
+            }
         }
     }
 }
@@ -38,11 +80,13 @@ struct AddProductScreen_Previews: PreviewProvider {
         let storeModel = StoreModel()
         storeModel.categories = [
             Category(id: 1, name: "Clothes", image: URL(string: "https://placeimg.com/640/480/any?r=0.9178516507833767")!),
-            Category(id: 1, name: "Clothes", image: URL(string: "https://placeimg.com/640/480/any?r=0.9178516507833767")!),
-            Category(id: 1, name: "Clothes", image: URL(string: "https://placeimg.com/640/480/any?r=0.9300320592588625")!)
+            Category(id: 2, name: "Electronics", image: URL(string: "https://placeimg.com/640/480/any?r=0.9178516507833767")!),
+            Category(id: 3, name: "Furniture", image: URL(string: "https://placeimg.com/640/480/any?r=0.9300320592588625")!)
         ]
         return
-        AddProductScreen()
-            .environmentObject(storeModel)
+        NavigationStack {
+            AddProductScreen()
+                .environmentObject(storeModel)
+        }
     }
 }

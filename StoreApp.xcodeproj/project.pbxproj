@@ -21,6 +21,7 @@
 		B2B1D0752958C18F00572024 /* ProductCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B1D0742958C18F00572024 /* ProductCellView.swift */; };
 		B2B1D0772958C34100572024 /* Locale+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B1D0762958C34100572024 /* Locale+Extension.swift */; };
 		B2B1D079295B55FE00572024 /* AddProductScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B1D078295B55FE00572024 /* AddProductScreen.swift */; };
+		B2B1D07B295CAEB100572024 /* CreateProductRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B1D07A295CAEB100572024 /* CreateProductRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		B2B1D0742958C18F00572024 /* ProductCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCellView.swift; sourceTree = "<group>"; };
 		B2B1D0762958C34100572024 /* Locale+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Locale+Extension.swift"; sourceTree = "<group>"; };
 		B2B1D078295B55FE00572024 /* AddProductScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductScreen.swift; sourceTree = "<group>"; };
+		B2B1D07A295CAEB100572024 /* CreateProductRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProductRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				B2B1D06829561D5800572024 /* Category.swift */,
 				B2B1D06A2956223400572024 /* StoreModel.swift */,
 				B2B1D06F29576E0E00572024 /* Product.swift */,
+				B2B1D07A295CAEB100572024 /* CreateProductRequest.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 				B2B1D0752958C18F00572024 /* ProductCellView.swift in Sources */,
 				B2B1D0722958B84800572024 /* ProductListScreen.swift in Sources */,
 				B2B1D079295B55FE00572024 /* AddProductScreen.swift in Sources */,
+				B2B1D07B295CAEB100572024 /* CreateProductRequest.swift in Sources */,
 				B2B1D054295617D100572024 /* StoreAppApp.swift in Sources */,
 				B2B1D0632956196D00572024 /* URL+Extension.swift in Sources */,
 				B2B1D06E2957636300572024 /* CategoryListScreen.swift in Sources */,
