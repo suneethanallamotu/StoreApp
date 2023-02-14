@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B25BAC6129940C8700B21021 /* ProductDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25BAC6029940C8700B21021 /* ProductDetailScreen.swift */; };
+		B25BAC6429941BED00B21021 /* BorderedCaption.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25BAC6329941BED00B21021 /* BorderedCaption.swift */; };
+		B25BAC6629941D2900B21021 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25BAC6529941D2900B21021 /* View+Extension.swift */; };
 		B2B1D054295617D100572024 /* StoreAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B1D053295617D100572024 /* StoreAppApp.swift */; };
 		B2B1D056295617D100572024 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B1D055295617D100572024 /* ContentView.swift */; };
 		B2B1D058295617D200572024 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2B1D057295617D200572024 /* Assets.xcassets */; };
@@ -25,6 +28,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B25BAC6029940C8700B21021 /* ProductDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailScreen.swift; sourceTree = "<group>"; };
+		B25BAC6329941BED00B21021 /* BorderedCaption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderedCaption.swift; sourceTree = "<group>"; };
+		B25BAC6529941D2900B21021 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
 		B2B1D050295617D100572024 /* StoreApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoreApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2B1D053295617D100572024 /* StoreAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreAppApp.swift; sourceTree = "<group>"; };
 		B2B1D055295617D100572024 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +60,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B25BAC6229941BD000B21021 /* ViewModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				B25BAC6329941BED00B21021 /* BorderedCaption.swift */,
+			);
+			path = ViewModifiers;
+			sourceTree = "<group>";
+		};
 		B2B1D047295617D100572024 = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +87,7 @@
 		B2B1D052295617D100572024 /* StoreApp */ = {
 			isa = PBXGroup;
 			children = (
+				B25BAC6229941BD000B21021 /* ViewModifiers */,
 				B2B1D0732958C17D00572024 /* Views */,
 				B2B1D06C2957634100572024 /* Screens */,
 				B2B1D06729561D3C00572024 /* Models */,
@@ -99,6 +114,7 @@
 			children = (
 				B2B1D0622956196D00572024 /* URL+Extension.swift */,
 				B2B1D0762958C34100572024 /* Locale+Extension.swift */,
+				B25BAC6529941D2900B21021 /* View+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -128,6 +144,7 @@
 				B2B1D06D2957636300572024 /* CategoryListScreen.swift */,
 				B2B1D078295B55FE00572024 /* AddProductScreen.swift */,
 				B2B1D0712958B84800572024 /* ProductListScreen.swift */,
+				B25BAC6029940C8700B21021 /* ProductDetailScreen.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -212,6 +229,7 @@
 			files = (
 				B2B1D06629561CF100572024 /* StoreHttpClient.swift in Sources */,
 				B2B1D07029576E0E00572024 /* Product.swift in Sources */,
+				B25BAC6629941D2900B21021 /* View+Extension.swift in Sources */,
 				B2B1D0772958C34100572024 /* Locale+Extension.swift in Sources */,
 				B2B1D06929561D5800572024 /* Category.swift in Sources */,
 				B2B1D056295617D100572024 /* ContentView.swift in Sources */,
@@ -220,7 +238,9 @@
 				B2B1D079295B55FE00572024 /* AddProductScreen.swift in Sources */,
 				B2B1D07B295CAEB100572024 /* CreateProductRequest.swift in Sources */,
 				B2B1D054295617D100572024 /* StoreAppApp.swift in Sources */,
+				B25BAC6129940C8700B21021 /* ProductDetailScreen.swift in Sources */,
 				B2B1D0632956196D00572024 /* URL+Extension.swift in Sources */,
+				B25BAC6429941BED00B21021 /* BorderedCaption.swift in Sources */,
 				B2B1D06E2957636300572024 /* CategoryListScreen.swift in Sources */,
 				B2B1D06B2956223400572024 /* StoreModel.swift in Sources */,
 			);

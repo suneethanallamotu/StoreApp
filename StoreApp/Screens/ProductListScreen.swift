@@ -15,8 +15,9 @@ struct ProductListScreen: View {
         
         VStack {
             List(storeModel.products, id: \.id){ product in
-               ProductCellView(product: product)
-                
+                NavigationLink(destination: ProductDetailScreen(product: product)){
+                    ProductCellView(product: product)
+                }
             }
             .navigationTitle(category.name)
             .listStyle(.plain)

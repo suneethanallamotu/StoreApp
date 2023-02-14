@@ -16,10 +16,11 @@ struct ProductCellView: View {
                     .bold()
                 Spacer()
                 Text(product.price, format: .currency(code: Locale.currencyCode))
-                    .padding()
-                    .foregroundColor(.white)
-                    .background(Color.green)
-                    .clipShape(RoundedRectangle(cornerRadius: 10.0, style: .continuous))
+                    .borderedCaption(backgroundColor: .green, foregroundColor: .white)
+//                    .padding()
+//                    .foregroundColor(.white)
+//                    .background(Color.green)
+//                    .clipShape(RoundedRectangle(cornerRadius: 10.0, style: .continuous))
             }
             Text(product.description)
         }

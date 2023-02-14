@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "6439FB39-C00D-4B2D-AEE7-DF3E6E43568F"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A3047A8D-103A-4E9D-B920-7DD80F815537"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StoreApp/Screens/AddProductScreen.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "saveProduct()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3245C2C7-02E5-415B-953E-95A863926BD0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StoreApp/Screens/AddProductScreen.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "saveProduct()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3245C2C7-02E5-415B-953E-95A863926BD0 - 780e87d9d2c742f5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in StoreApp.AddProductScreen.saveProduct() -&gt; ()"
+                  moduleName = "StoreApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suneethanallamotu/Projects/IOS/Swift/StoreApp/StoreApp/Screens/AddProductScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  uuid = "3245C2C7-02E5-415B-953E-95A863926BD0 - 74b925ca0557925f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for closure #1 @Sendable () async -&gt; () in StoreApp.AddProductScreen.saveProduct() -&gt; ()"
+                  moduleName = "StoreApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suneethanallamotu/Projects/IOS/Swift/StoreApp/StoreApp/Screens/AddProductScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "3245C2C7-02E5-415B-953E-95A863926BD0 - ed2fa3e2e5016cf0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for closure #1 @Sendable () async -&gt; () in StoreApp.AddProductScreen.saveProduct() -&gt; ()"
+                  moduleName = "StoreApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suneethanallamotu/Projects/IOS/Swift/StoreApp/StoreApp/Screens/AddProductScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "92">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6CBD220C-E6D6-431F-890A-12D2A77156EB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StoreApp/Models/StoreModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "saveProduct(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "88869260-BD2A-4ABA-A90C-2CAC733796A3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StoreApp/Clients/StoreHttpClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "load(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "88869260-BD2A-4ABA-A90C-2CAC733796A3 - 9b82033cffb68a11"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for StoreApp.StoreHttpclient.load&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(StoreApp.Resource&lt;&#x3c4;_0_0&gt;) async throws -&gt; &#x3c4;_0_0"
+                  moduleName = "StoreApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suneethanallamotu/Projects/IOS/Swift/StoreApp/StoreApp/Clients/StoreHttpClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "2236">
+               </Location>
+               <Location
+                  uuid = "88869260-BD2A-4ABA-A90C-2CAC733796A3 - b81253ad01e14e1f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for StoreApp.StoreHttpclient.load&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(StoreApp.Resource&lt;&#x3c4;_0_0&gt;) async throws -&gt; &#x3c4;_0_0"
+                  moduleName = "StoreApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suneethanallamotu/Projects/IOS/Swift/StoreApp/StoreApp/Clients/StoreHttpClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "1672">
+               </Location>
+               <Location
+                  uuid = "88869260-BD2A-4ABA-A90C-2CAC733796A3 - a8da7b95baf6e01e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for StoreApp.StoreHttpclient.load&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(StoreApp.Resource&lt;&#x3c4;_0_0&gt;) async throws -&gt; &#x3c4;_0_0"
+                  moduleName = "StoreApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suneethanallamotu/Projects/IOS/Swift/StoreApp/StoreApp/Clients/StoreHttpClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "52">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9345FA48-73CA-4472-85F5-57DCAFB919FA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StoreApp/Clients/StoreHttpClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "load(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9C64AFDA-5F4A-4EB9-A641-A8734A6C905A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StoreApp/Models/StoreModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "saveProduct(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9C64AFDA-5F4A-4EB9-A641-A8734A6C905A - 82e94c1280d7878b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for StoreApp.StoreModel.saveProduct(StoreApp.CreateProductRequest) async throws -&gt; ()"
+                  moduleName = "StoreApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suneethanallamotu/Projects/IOS/Swift/StoreApp/StoreApp/Models/StoreModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "252">
+               </Location>
+               <Location
+                  uuid = "9C64AFDA-5F4A-4EB9-A641-A8734A6C905A - 57bb2b639396ff7e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for StoreApp.StoreModel.saveProduct(StoreApp.CreateProductRequest) async throws -&gt; ()"
+                  moduleName = "StoreApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suneethanallamotu/Projects/IOS/Swift/StoreApp/StoreApp/Models/StoreModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "9C64AFDA-5F4A-4EB9-A641-A8734A6C905A - 73ef867d6ef14389"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for StoreApp.StoreModel.saveProduct(StoreApp.CreateProductRequest) async throws -&gt; ()"
+                  moduleName = "StoreApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suneethanallamotu/Projects/IOS/Swift/StoreApp/StoreApp/Models/StoreModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "100">
+               </Location>
+               <Location
+                  uuid = "9C64AFDA-5F4A-4EB9-A641-A8734A6C905A - 3b6d7dabbe1d9d96"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for StoreApp.StoreModel.saveProduct(StoreApp.CreateProductRequest) async throws -&gt; ()"
+                  moduleName = "StoreApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suneethanallamotu/Projects/IOS/Swift/StoreApp/StoreApp/Models/StoreModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "76">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "37785DBF-1801-47DC-AEA6-0CCB20B2710A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StoreApp/Clients/StoreHttpClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "load(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5A8913B6-70E6-4394-9086-268F0F404863"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StoreApp/Clients/StoreHttpClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "load(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5A8913B6-70E6-4394-9086-268F0F404863 - 9b82033cffb68ab6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for StoreApp.StoreHttpclient.load&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(StoreApp.Resource&lt;&#x3c4;_0_0&gt;) async throws -&gt; &#x3c4;_0_0"
+                  moduleName = "StoreApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suneethanallamotu/Projects/IOS/Swift/StoreApp/StoreApp/Clients/StoreHttpClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "2668">
+               </Location>
+               <Location
+                  uuid = "5A8913B6-70E6-4394-9086-268F0F404863 - 747c3642bf8a6e9d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for StoreApp.StoreHttpclient.load&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(StoreApp.Resource&lt;&#x3c4;_0_0&gt;) async throws -&gt; &#x3c4;_0_0"
+                  moduleName = "StoreApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suneethanallamotu/Projects/IOS/Swift/StoreApp/StoreApp/Clients/StoreHttpClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "5A8913B6-70E6-4394-9086-268F0F404863 - a8da7b95baf6e01e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for StoreApp.StoreHttpclient.load&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(StoreApp.Resource&lt;&#x3c4;_0_0&gt;) async throws -&gt; &#x3c4;_0_0"
+                  moduleName = "StoreApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suneethanallamotu/Projects/IOS/Swift/StoreApp/StoreApp/Clients/StoreHttpClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "5A8913B6-70E6-4394-9086-268F0F404863 - a8da7b95baf6e0b9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for StoreApp.StoreHttpclient.load&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(StoreApp.Resource&lt;&#x3c4;_0_0&gt;) async throws -&gt; &#x3c4;_0_0"
+                  moduleName = "StoreApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suneethanallamotu/Projects/IOS/Swift/StoreApp/StoreApp/Clients/StoreHttpClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "132">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AEC3283F-097A-4C3B-A90E-8B85216D53A7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StoreApp/Clients/StoreHttpClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "load(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E31080C9-0193-4C9D-A2E3-6C932A96E19C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StoreApp/Clients/StoreHttpClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "load(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

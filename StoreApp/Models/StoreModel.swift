@@ -27,7 +27,8 @@ class StoreModel: ObservableObject {
     func saveProduct(_ createProductRequest: CreateProductRequest) async throws {
         
         let data = try JSONEncoder().encode(createProductRequest)
-        let product: Product = try await client.load(Resource(url: .saveProduct, method: .post(data)))
-        products.append(product)
+        let cProduct: CreateProductRequest = try await client.load(Resource(url: URL.saveProduct, method: .post(data)))
+        //let product = Product(title:, price: <#T##Double#>, description: <#T##String#>, category: <#T##Category#>)
+        //products.append(product)
     }
 }
